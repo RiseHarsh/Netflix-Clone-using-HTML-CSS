@@ -49,7 +49,7 @@ nav button {
     z-index: 10;
 }
 
-.hero {
+.joining {
     font-family: 'Martel Sans', sans-serif;
     height: calc(100% - 100px);
     display: flex;
@@ -62,20 +62,20 @@ nav button {
     padding: 0 30px;
 }
 
-.hero> :nth-child(1) {
+.joining> :nth-child(1) {
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     font-size: 48px;
     text-align: center;
 }
 
-.hero> :nth-child(2) {
+.joining> :nth-child(2) {
     font-weight: 400;
     font-size: 24px;
     text-align: center;
 }
 
-.hero> :nth-child(3) {
+.joining> :nth-child(3) {
     font-weight: 400;
     font-size: 20px;
     text-align: center;
@@ -113,7 +113,7 @@ nav button {
     color: white;
 }
 
-.hero-buttons {
+.joining-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -246,19 +246,19 @@ footer .questions {
         width: 305px;
     }
 
-    .hero> :nth-child(1) {
+    .joining> :nth-child(1) {
         font-size: 32px;
     }
 
-    .hero> :nth-child(2) {
+    .joining> :nth-child(2) {
         font-size: 18px;
     }
 
-    .hero> :nth-child(3) {
+    .joining> :nth-child(3) {
         font-size: 18px;
     }
 
-    .hero-buttons {
+    .joining-buttons {
         display: flex;
         flex-direction: column;
         align-items: center;
